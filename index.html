@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>EAMS – Emergency and Ambulance Management System</title>
+  <meta name="description" content="Interactive prototype of EAMS – AUCA Requirements Engineering, Group 6, Kigali, Rwanda." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+  <!-- The router renders every screen into #app -->
+  <main id="app" tabindex="-1" aria-live="polite"></main>
+  <div id="modal-root"></div>
+  <div id="toast-root" class="toast-root" role="status" aria-live="polite"></div>
+  <div id="switcher-root"></div>
+  <div id="demo-root"></div>
+
+  <!-- Classic scripts (no build step, works from file://). Order matters. -->
+  <script src="js/icons.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/views/landing.js"></script>
+  <script src="js/views/caller.js"></script>
+  <script src="js/views/dispatcher.js"></script>
+  <script src="js/views/crew.js"></script>
+  <script src="js/views/hospital.js"></script>
+  <script src="js/views/admin.js"></script>
+  <script src="js/demo.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
